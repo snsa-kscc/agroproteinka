@@ -1,0 +1,1649 @@
+
+@import "fonts.styl"
+@import "animations.styl"
+
+ltlgMedia = "screen and (max-width: 991px)"
+gtlgMedia = "screen and (min-width: 992px)"
+ltMaxWidth = "screen and (min-width: 992px) and (max-width: 1509px)"
+ltLaptopMedia = "screen and (max-width: 1365px)"
+gtLaptopMedia = "screen and (min-width: 1366px)"
+ltxxlMedia = "screen and (max-width: 1919px)"
+xxlMedia = "screen and (min-width: 1920px)"
+
+maxWidth = 1510px
+
+appDefault = #2B2B2B
+appGreen = #3b9c36
+appGreenHover = #317c2c
+appLightGreen = #8fc58b
+appBlue = #2499D6
+appBlueDark = #248dca
+
+[v-cloak]
+  display none
+  
+.transparent
+  opacity 0
+
+body
+  font-family "Primary"
+  font-weight 400
+  color appDefault
+  
+h1
+  font-size 96px
+  line-height 112px
+  
+  @media ltlgMedia
+    font-size 48px
+    line-height 64px
+  
+h2
+  font-size 48px
+  line-height 56px
+  color black
+  
+  &.with-dash
+    position relative
+    
+    &:before
+      content ''
+      position absolute
+      width 46px
+      height 3px
+      background appBlue
+      top -20px
+      left 6px
+      
+    &.distant-dash
+      &:before
+        top -48px
+        left -2px
+  
+h3
+  font-size 24px
+  line-height 28px
+  color appGreen
+  //margin-top -24px
+  margin-bottom 40px
+  
+p
+  font-size 18px
+  line-height 29px
+  margin-bottom 29px
+  
+  a
+    color appBlue
+    text-decoration none !important
+    
+    &:hover
+      color appBlueDark
+      
+p + h3
+  margin-top 59px
+  
+table
+  border none
+  
+  td
+  th
+    @extends p
+    padding-bottom 29px
+    padding-right 50px
+    margin-bottom 0
+    vertical-align top
+    border none
+    width auto !important
+    
+    @media ltLaptopMedia
+      display block
+      padding-right 0
+    
+    p
+      margin-bottom 0
+      
+  tr
+    th:last-child
+    td:last-child
+      padding-right 0
+      
+.button
+  position relative
+  display inline-block
+  
+  .button-text-container
+    position absolute
+    left 0
+    top 0
+    height 100%
+    width 100%
+    padding-left 34px
+    font-size 18px
+    color appDefault
+    
+  .more-arrow
+    position absolute
+    right -12px
+    top 31px
+    transition right 0.15s linear
+    
+  &:hover
+    .more-arrow
+      right -17px
+    
+.animated
+  visibility hidden
+
+#wrap
+  min-height 100vh
+  overflow-x hidden
+
+.container-fluid
+  max-width maxWidth
+  
+.narrow-container
+  max-width 1366px
+  
+offsetPadding()
+  padding-left 34px
+  
+.offset-container
+  width 100%
+  max-width calc(50% + 583px)
+  offsetPadding()
+  
+header
+  padding-top 140px
+  
+  .top-header
+    position fixed
+    top 0
+    left 0
+    width 100%
+    z-index 2500
+    background white
+  
+  .inner-header
+    max-width 100%
+    height 140px
+    z-index 200
+    
+  .logo
+    width 365px
+    
+    img
+      width 100%
+      
+  .button-links
+    margin-right 27px
+    
+    .button-link
+      min-width 48px
+      width 48px
+      height 48px
+      border-radius 24px
+      text-transform uppercase
+      padding 14px 15px
+      color white
+      margin-left 9px
+      text-decoration none
+      font-size 19px
+      line-height 21px
+      overflow hidden
+      transition width 0.15s ease-out
+      
+      &.report
+        background appGreen
+      
+      &.forms
+        background appBlue
+        
+        .icon
+          left 2px
+        
+        &:hover
+          background appBlueDark
+          
+      .content
+        white-space nowrap
+        
+        .icon
+          margin-right 37px
+          position relative
+          top -1px
+          transition:
+            margin-left 0.15s ease-out,
+            opacity 0.15s ease-out
+        
+        .text
+          opacity 0
+          white-space no-wrap
+          transition opacity 0.15s ease-out
+          
+      &.expanded
+        .content
+          .icon
+            margin-left -40px
+            opacity 0
+    
+          .text
+            opacity 1
+      
+  .nav-container
+    padding-left 48px
+    height 100%
+    
+    .main-links
+      z-index 100
+      height 100%
+      
+      .main-links-inner
+        border-radius 24px
+        border 1px solid appGreen
+        transition border-color 0.15s linear
+      
+      &.menu-open
+        .main-links-inner
+          border-color white
+        
+        .item
+          color white
+          
+          &:hover
+            color rgba(255, 255, 255, 0.85)
+            
+          .hamburger
+            .hamburger-inner
+              background-color white
+
+              &:before
+              &:after
+                background-color white
+      
+      .item
+        height 48px
+        padding 13px 20px 12px
+        margin-left 13px
+        color appGreen
+        font-size 19px
+        line-height 21px
+        font-weight 400
+        text-decoration none
+        border 1px solid transparent
+        transition color 0.15s linear
+        
+        &:hover
+          color appGreenHover
+          
+        &.language
+          margin-right 33px
+        
+        &.menu
+          > span
+            margin-right 14px
+          
+        .hamburger
+          padding 1px 0 0
+          height 20px
+          outline none !important
+          
+          &:hover
+            opacity 1
+          
+          &.is-active
+            .hamburger-inner
+              &:before
+                top 0
+                
+              &:after
+                bottom 0
+                width 24px
+                
+          .hamburger-box
+            width 24px
+            height 20px
+          
+          .hamburger-inner
+            background-color white
+            border-radius 0
+            width 24px
+            height 3px
+            
+            &:before
+            &:after
+              height 3px
+              width 24px
+              border-radius 0
+              background-color appGreen
+              
+            &:before
+              top -5px
+              
+            &:after
+              bottom -5px
+              right 0
+              width 12px
+              
+    .hidden-links-container
+      position absolute
+      display none
+      top 0
+      left 0
+      width 100%
+      z-index 50
+      background appGreen
+      max-height calc(100vh + 34px)
+  
+      .menu-cover
+        width 100%
+        height 140px
+        background appGreen
+        z-index 100
+        position absolute
+        left 0
+        top 0
+      
+      .simplebar-scrollbar
+        display none
+      
+      .inner-content
+        padding 139px 62px 126px 62px
+      
+      ul
+        list-style none
+        padding 0
+        margin 0
+        
+        a
+          color white
+          
+          &:hover
+            text-decoration none
+            border-bottom 4px solid white
+        
+        &.top-level-list
+          > li
+            font-size 48px
+            line-height 64px
+            
+            &.active
+              > a
+                border-bottom 4px solid white
+                
+              > ul
+                display block
+            
+            > ul
+              display none
+              padding 10px 0 10px
+              
+              > li
+                font-size 24px
+                line-height 32px
+                
+                > a
+                  &:hover
+                    border-bottom 3px solid white
+                  
+      .info-container
+        color white
+        font-size 18px
+        line-height 24px
+        margin-top 70px
+        
+        p
+          line-height 24px
+        
+        a
+          color white
+          
+          &.cta-button
+            text-decoration none
+            background appBlue
+            padding 12px 27px 10px
+            border-radius 50px
+            width 100%
+            
+            &:hover
+              background appBlueDark
+        
+        .info-section
+          .block
+            width 100%
+            max-width 280px
+            margin-bottom 16px
+  
+            .with-padding
+              padding-left 39px
+            
+            p
+              margin-bottom 6px
+    
+              &:last-child
+                margin-bottom 0
+            
+          .icon
+            margin-right 15px
+            position relative
+            top -3px
+            
+            
+.header-hero
+  height 580px
+  background-position 0 0
+  background-repeat no-repeat
+  background-size cover
+  
+  img
+    position absolute
+    right 0
+    top 0
+    height 100%
+    
+  h1
+    color white
+    max-width 900px
+    margin 0 0 81px 10px
+    
+section
+  padding-top 131px
+  
+  &.header-section
+    padding-top 0
+    z-index 100
+    margin-bottom 90px
+    
+    .col-left
+      flex 0 0 46.5%
+      
+      @media gtlgMedia
+        background none !important
+      
+      .header-content-container
+        width 100%
+        height 1027px
+        
+        img
+          position absolute
+          top 0
+          right 0
+          width auto
+          max-width initial
+        
+        .title
+          z-index 10
+          width 100%
+          max-width 593px
+          padding-top 252px
+          
+          h1
+            color white
+            line-height 90px
+            text-transform uppercase
+            
+            @media gtlgMedia
+              padding-right 80px
+              font-size 80px
+          
+    .content-container
+      .inner-content-container
+        margin-bottom 90px
+      
+        .text-container
+          padding-left 47px
+          padding-top 273px
+          padding-right 214px
+        
+  &.for-full-width-header
+    .section-img-container
+      width 697px
+      max-width 100%
+      
+      &.position-text-line
+        top 81px
+      
+      &.position-title-line
+        top -15px
+        margin-bottom -96px
+      
+      &.position-above-top
+        margin-top -212px
+        
+      &.position-above-top-extra
+        margin-top -285px
+        
+    .section-img
+      width 616px
+    
+  &.for-header-with-text
+    &.first
+      padding-top 0
+    
+    &.section-textImage
+      margin-bottom -26px
+      
+      .text-container
+        margin-bottom 200px
+        
+    &.section-imageText
+      padding-top 0
+      
+      .inner-content-container
+        margin-bottom 50px
+    
+    .section-img-container
+      max-width 100%
+      
+      img
+        max-width initial
+      
+      &.pull-right-image
+        right -260px
+        margin-top -225px
+        
+      &.pull-left-image
+        left -358px
+        margin-top -450px
+        z-index 100
+        
+    .right-text
+      p
+        max-width 622px
+  
+  &.section-gray
+    background #f4f4f4
+  
+    .content-container
+      .hide-text-gradient
+        background-image linear-gradient(rgba(255,255,255, 0), #f4f4f4)
+    
+  &.extra-padding
+    padding-top 204px
+  
+    .section-img-container
+      &.position-above-top
+        margin-top -285px
+    
+  &.section-single-news
+    h3
+      font-size 18px
+      line-height 29px
+      margin-top 0
+      margin-bottom 28px
+    
+    .left-col
+      @media gtLaptopMedia
+        flex 0 0 636px
+        max-width 636px
+        
+    .fake-nav-container
+      width 137px
+      
+      &.left-container
+        left 0
+        
+      &.right-container
+        left initial
+        right 0
+        
+    .real-nav-container
+      position absolute
+      z-index 100
+  
+      &.left-container
+        bottom 96px
+        left -10px
+  
+      &.right-container
+        top 96px
+        right 2px
+      
+      .nav-button
+        width 137px
+        height 99px
+        cursor pointer
+        
+    .news-image-slider
+      padding 0 65px 0 50px
+    
+  .outer-section-container
+    position relative
+    margin 0 auto
+    max-width 1920px
+    
+  .left-background-image
+    position absolute
+    left 0
+    top -205px
+  
+  .content-container
+    width 100%
+    
+    .inner-content-container
+      width 100%
+      margin-bottom 135px
+      position relative
+      transition margin-bottom 0.2s ease-out
+      
+      &.no-text-margin
+        margin-bottom 0
+  
+    .text-container
+      width 100%
+      margin-bottom 26px
+      padding-right 11px
+      offsetPadding()
+    
+      &.narrow
+        padding-right 125px
+        
+      &.narrower
+        padding-right 172px
+        
+    .inner-text-container
+      overflow hidden
+      transition height 0.2s ease-out
+      
+      h2
+        font-size 36px
+        
+        a
+          text-decoration none
+          color appBlue
+          
+          &:hover
+            color appBlueDark
+      
+      h2 + h2
+        margin-top -48px
+      
+    .hide-text-gradient
+      height 42px
+      width 100%
+      position absolute
+      left 0
+      bottom 0
+      background-image linear-gradient(rgba(255,255,255, 0), rgba(255,255,255, 1))
+      transition:
+          height 0.15s linear,
+          opacity 0.15s linear
+      
+      &.gradient-hidden
+        height 0
+        opacity 0
+      
+    .expand-text
+      margin-top 5px
+      height 20px
+      cursor pointer
+      transition:
+        height 0.15s linear,
+        opacity 0.15s linear,
+        margin-top 0.15s linear
+      
+      &.expand-button-hidden
+        height 0
+        opacity 0
+        margin-top 0
+        
+      img
+        height 21px
+      
+    &.big-indent
+      .inner-content-container
+        max-width 568px
+        
+    &.medium-indent
+      .inner-content-container
+        max-width 602px
+  
+  h2
+    margin-bottom 43px
+  
+  p
+    &:last-of-type
+      margin-bottom 0
+  
+  .section-img
+    max-width 100%
+    
+    &.masked
+      mask-size 100%
+    
+    &.skew-right
+      mask-image url("/img/mask_skew_right.png")
+      
+    &.skew-left
+      mask-image url("/img/mask_skew_left.png")
+      
+    &.left-trapezoid
+      mask-image url("/img/mask_left_trapezoid.png")
+      
+    &.right-trapezoid
+      mask-image url("/img/mask_right_trapezoid.png")
+      
+    &.header-mask
+      mask-size 100% 100.3%
+      mask-image url("/img/mask_header_with_text.png")
+      mask-repeat no-repeat
+      
+.slider-container
+  padding-top 122px
+  
+  &.prev-disabled
+    .nav-arrow-left
+      opacity 0.4
+      cursor default
+      
+  &.next-disabled
+    .nav-arrow-right
+      opacity 0.4
+      cursor default
+  
+  &.history-section
+    margin-top -103px
+    margin-bottom -95px
+    padding-top 0
+    
+    .fake-nav-container
+      .nav-arrow
+        &.nav-arrow-left
+          left -18px
+          top 283px
+          
+          @media ltLaptopMedia
+            left 30px
+          
+        &.nav-arrow-right
+          right 133px
+          top 66px
+      
+          @media ltLaptopMedia
+            right 95px
+      
+    section.horizontal-line
+      position absolute
+      top 133px
+      z-index -1
+      border-top 1px solid #e1e1e1
+    
+    h2
+      margin-top 84px
+    
+    .content-container
+      .text-container
+        margin-bottom 89px
+      
+      .nav-arrow-left
+        position relative
+        left -18px
+        
+        @media ltLaptopMedia
+          left 35px
+    
+    section
+      .nav-arrow-right
+        right 77px
+        
+      .section-img
+        @media ltMaxWidth
+          max-width 80%
+          
+  &.news-slider
+    padding-top 58px
+    padding-bottom 187px
+    
+    h2
+      margin-bottom 71px
+      
+    .wide-title
+      @media ltxxlMedia
+        display none
+        
+    .narrow-title
+      @media xxlMedia
+        display none
+      
+    .news-carousel-container
+      width 100%
+    
+      @media ltxxlMedia
+        width calc(100% - 500px)
+      
+    .nav-container
+      position absolute
+      top 0
+      padding-bottom 12px
+      min-height 100%
+      
+      &.left-control-container
+        left -228px
+        
+      &.right-control-container
+        right -96px
+        padding-left 28px
+        z-index 100
+        background #f4f4f4
+  
+        @media ltxxlMedia
+          right -150px
+      
+      .nav-arrow
+        cursor pointer
+        
+        &.nav-arrow-left
+          .arrow-img
+            left -15px
+            
+          &:hover
+            .arrow-img
+              left -20px
+              
+        &.nav-arrow-right
+          margin-bottom 71px
+          
+          .arrow-img
+            right -15px
+    
+          &:hover
+            .arrow-img
+              right -20px
+              
+      .archive-container
+        .title
+          font-size 14px
+          color appGreen
+          line-height 24px
+          opacity 0.7
+          letter-spacing 4px
+          font-weight 500
+          margin-bottom 10px
+        
+        ul
+          list-style none
+          padding 0
+          margin 0
+          
+          li
+            a
+              color appGreen
+              font-size 22px
+              line-height 32px
+              transition color 0.15s linear
+              
+              &:hover
+                text-decoration none
+                color appGreenHover
+      
+    .news-carousel
+      width calc(100% + 30px)
+      
+      .single-news
+        cursor pointer
+        
+        .news-date
+          color appGreen
+          font-family "Roboto", sans-serif
+          font-size 14px
+          line-height 24px
+          letter-spacing 4px
+          font-weight 500
+          margin-bottom 18px
+        
+        p
+          font-size 36px
+          line-height 50px
+          letter-spacing -1px
+          font-weight 600
+          color black
+          padding-right 70px
+  
+          @media ltxxlMedia
+            font-size 32px
+            line-height 42px
+            
+  &.news-image-slider-container
+    padding-top 0
+    transition opacity 0.15s linear
+  
+  .fake-nav-container
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    
+    .nav-arrow
+      position absolute
+      width 137px
+      
+      &.nav-arrow-left
+        left -10px
+        bottom 96px
+        
+        .arrow-img
+          left 0
+        
+        &.hover
+          .arrow-img
+            left -5px
+      
+      &.nav-arrow-right
+        right 2px
+        top 96px
+        
+        .arrow-img
+          right 0
+        
+        &.hover
+          .arrow-img
+            right -5px
+          
+  h2
+    padding 0
+    margin-bottom 25px
+    
+  .nav-arrow
+    transition opacity 0.15s linear
+    
+    .arrow-img
+      position absolute
+      top 31px
+    
+    &.nav-arrow-left
+      .arrow-img
+        transition left 0.15s linear
+    
+    &.nav-arrow-right
+      .arrow-img
+        transition right 0.15s linear
+  
+  section
+    max-width 100%
+    padding-top 17px
+    overflow hidden
+    
+    .section-img-container
+      margin-top -17px
+      
+    .section-img
+      width 616px
+      position relative
+      z-index 10
+      
+      @media ltMaxWidth
+        max-width 85%
+      
+    .nav-arrow-right
+      position absolute
+      right 0
+      top 83px
+      z-index 0
+  
+    .nav-arrow
+      &.real-nav
+        opacity 0
+        z-index 20
+        
+    .left-real-nav-container
+      position absolute
+      left 0
+      top 283px
+      
+  .timeline-circle
+    position absolute
+    left 0
+    top 116px
+    
+    &:after
+      content ''
+      position absolute
+      top -9px
+      right -9px
+      height 18px
+      width 18px
+      background #9CC323
+      border-radius 50%
+      z-index 1
+
+.order-form
+  padding-top 50px
+  
+  .form-group
+    margin-bottom 30px
+    
+    &.is-checkbox
+      display none
+  
+  .form-control
+    border 1px solid #EAEAEA
+    border-radius 29px
+    padding 0.375rem 20px
+    
+    &::placeholder
+      color #c0c0c0
+      
+  textarea.form-control
+    min-height 96px
+    padding-top 11px
+    padding-bottom 11px
+    
+  input
+    height 48px
+    
+  .btn-submit
+    background appBlue
+    transition background 0.15s linear
+    color white
+    height 48px
+    padding 0.375rem 20px
+    border-radius 29px
+    
+    &:hover
+      background appBlueDark
+    
+  label
+    &.error
+      color #f50000
+      padding-left 20px
+      margin-bottom -21px
+      display block
+      font-size 14px
+      
+  .submit-message
+    color appGreen
+    padding-left 20px
+    position relative
+    top -17px
+    
+    &.is-error
+      color #f50000
+   
+.footer-link
+  color white !important
+  text-decoration none !important
+  
+  &:hover
+    opacity 0.85
+    
+footer
+  background appGreen
+  margin-top 120px
+  min-height 141px
+  padding 76px 0
+  color white
+  font-size 32px
+  line-height 43px
+  
+  &.no-footer-margin
+    margin-top 0
+  
+  .footer-info
+    font-size 18px
+    line-height 29px
+    
+    &.top-info
+      margin-bottom 92px
+      
+    &.bottom-info
+      margin-bottom 40px
+  
+  .left-info
+  .right-info
+    width 295px
+    
+  .right-section
+    width 276px
+    
+    @media ltLaptopMedia
+      width 200px
+      
+  .social
+    top -3px
+    margin-bottom 7px
+    
+    a
+      margin-right 17px
+      transition opacity 0.15s linear
+      
+      svg
+        height 16px
+        
+      &:last-child
+        margin-right 0
+        
+      &:hover
+        opacity 0.85
+      
+  .footer-logo
+    width 190px
+    top -3px
+  
+  h3
+    color white
+    margin-top 0
+    margin-bottom 5px
+    font-size 18px
+    font-weight 600
+  
+  ul
+    list-style none
+    padding 0
+    margin 0
+    
+    li
+      a
+        @extends .footer-link
+  
+.notice-container
+  //min-height 141px
+  width 100%
+  position fixed
+  left 0
+  bottom 0
+  background appLightGreen
+  padding 7px 0
+  color white
+  font-size 14px
+  line-height 20px
+  z-index 150
+  
+  .offset-container
+    .text-container
+      > span
+        margin-right 30px
+        display inline-block
+        margin-bottom 15px
+        
+    /*.legal-container
+      white-space nowrap
+      position relative
+      
+      a
+        color white
+        text-decoration none*/
+  
+  .button
+    img
+      width 100px
+    
+    .button-text-container
+      color white
+      font-size 14px
+      line-height 20px
+      padding-left 7px
+      top -2px
+      
+.gdpr-notice-container
+  position fixed
+  top 0
+  left 0
+  width 100%
+  height 100vh
+  padding 30px
+  z-index 2500
+  
+  .gdpr-notice
+    width 600px
+    max-width 100%
+    max-height 98%
+    overflow auto
+    padding 147px 80px
+    background rgba(59, 156, 54, 0.8)
+    
+    .close-gdpr
+      position absolute
+      right 42px
+      top 45px
+    
+    h2
+      color white
+      margin-bottom 43px
+
+//////////////////////////////////
+///// ADJUSTMENTS FOR MOBILE /////
+//////////////////////////////////
+
+@media ltlgMedia
+  .col-12
+    padding-left 30px
+    padding-right 30px
+  
+  .masked
+    mask-image none !important
+  
+  header
+    .top-header
+      padding 0
+      
+      > .narrow-container
+        padding 0
+    
+    .inner-header
+      height 107px
+      
+    .header-links
+      width 100%
+      
+    .nav-container
+      padding 0
+      width 100%
+      
+      .main-links
+        .main-links-inner
+          width 100%
+          border none
+        
+        .item
+          height auto
+          width 100px
+          padding-left 30px
+          padding-top 44px
+          padding-right 20px
+          margin 0
+          
+          &.language
+            margin-right 0
+          
+          &.menu
+            padding-left 20px
+            padding-right 30px
+            border-radius 0
+            border-color transparent !important
+            justify-content flex-end
+            
+            > span
+              margin-right 0
+              
+        .logo
+          svg
+            path
+              transition fill 0.15s linear
+          
+        &.menu-open
+          .menu
+            svg
+              rect
+                fill white
+                
+          .logo
+            svg
+              path
+                fill white
+              
+      .hidden-links-container
+        .menu-cover
+          height 107px
+        
+        .inner-content
+          padding-left 30px
+          padding-right 30px
+          padding-top 150px
+          min-height 100vh
+        
+        ul
+          &.top-level-list
+            > li
+              font-size 40px
+              line-height 56px
+              text-align center
+              
+              > ul
+                display block
+                padding-top 0
+    
+    .logo
+      width auto
+      margin-top 24px
+      
+      img
+        width auto
+  
+  header
+    .header-hero
+      margin-bottom 20px
+  
+  .header-hero
+    height 383px
+    text-align center
+    
+    h1
+      margin-bottom 0
+      margin-left 0
+    
+    img
+      right initial
+      left calc(100% - 120px)
+  
+  section
+    padding-top 0 !important
+    padding-bottom 20px
+    
+    &.header-section
+      margin-bottom 0
+      
+      h2
+        &:before
+          display none
+          
+      .col
+        padding-left 30px
+        padding-right 30px
+      
+      .col-left
+        flex 0 0 100%
+        background-size cover
+        margin-bottom 20px
+  
+        .header-content-container
+          height 383px
+          
+          img
+            display none
+          
+          .title
+            padding-top 0
+            max-width 100%
+            
+            h1
+              line-height 64px
+              text-transform none
+              
+    &.for-header-with-text
+      &.section-textImage
+        margin-bottom 0
+        
+        .text-container
+          margin-bottom 26px
+          
+      h2
+        &:before
+          display none
+          
+      .right-text
+        p
+          max-width 100%
+      
+      .section-img-container
+        &.pull-right-image
+        &.pull-left-image
+          right initial
+          left initial
+          max-height 100vw
+          overflow hidden
+        
+    &.section-textText
+      padding-top 30px !important
+      
+    &.section-single-news
+      .real-nav-container
+        display none
+        
+      .fake-nav-container
+        z-index 100
+        height 38px
+        width 52px
+        top calc(50% - 19px)
+        
+        .nav-arrow
+          width 52px
+          height 38px
+          top initial !important
+          bottom initial !important
+          position relative
+          cursor pointer
+          
+          &.nav-arrow-left
+            left 10px
+            
+            img.arrow-img
+              left 9px
+  
+            &:hover
+              img.arrow-img
+                left 9px
+  
+          &.nav-arrow-right
+            right 10px
+            
+            img.arrow-img
+              right 8px
+              
+            &:hover
+              img.arrow-img
+                right 8px
+            
+          img.arrow-img
+            width 27px
+            top 10px
+    
+      .news-image-slider
+        padding 0
+      
+    .left-background-image
+      display none
+  
+    .section-img-container
+      top initial !important
+      bottom initial !important
+      max-width none !important
+      width calc(100% + 60px) !important
+      margin 0 -30px 26px -30px !important
+      
+    .section-img
+      width 100% !important
+      
+    .content-container
+      &.double-text-left
+        margin-bottom 40px
+  
+    .inner-content-container
+      margin-bottom 0 !important
+      max-width 100% !important
+      
+    .text-container
+      padding 0 !important
+  
+    .button
+      margin-left -30px
+      height 74px
+      
+      img
+        height 100%
+        width auto
+        
+        &.more-arrow
+          height auto
+          width 40px
+          top 23px
+          right -10px
+  
+    .offset-container
+      max-width 100%
+      padding-left 0
+  
+  .slider-container
+    &.history-section
+      margin-top 0
+      margin-bottom 0
+      padding-bottom 0
+      
+      section
+        padding-bottom 0
+        
+      .fake-nav-container
+        height 74px !important
+        top 310px
+        z-index 40
+        
+        .col-6
+          padding-left 30px !important
+          padding-right 30px !important
+        
+        .nav-arrow
+          top 0 !important
+          width 103px
+          cursor pointer
+          
+          &.nav-arrow-left
+            left 0 !important
+            
+          &.nav-arrow-right
+            right 30px !important
+            
+            .arrow-img
+              right 1px
+            
+          .arrow-img
+            width 38px
+            top 24px
+            height auto
+      
+      .content-container
+        .text-container
+          margin-bottom 163px
+          min-height 140px
+        
+        .nav-arrow-left
+          left initial
+          
+        .nav-arrow-right
+          right initial
+          
+      .section-img-container
+        margin-bottom 0 !important
+        
+    &.news-slider
+      margin-top 55px
+      padding-top 58px !important
+      
+      .news-carousel-container
+        width calc(100% - 149px)
+        margin-left 15px
+      
+      .nav-container
+        top initial
+        bottom -150px
+        
+        &.left-control-container
+          left 0
+          
+          .nav-arrow
+            &.nav-arrow-left
+              .arrow-img
+                left -10px
+        
+        &.right-control-container
+          flex-direction column-reverse !important
+          justify-content space-between
+          min-height calc(100% + 150px)
+          right -120px
+          padding-left 0
+          background transparent
+          
+          .nav-arrow
+            margin-bottom 0
+            
+            &.nav-arrow-right
+              .arrow-img
+                right -10px
+            
+          .archive-container
+            padding-left 40px
+            margin-left 50px
+            flex 1
+            background #f4f4f4
+            
+      .news-carousel
+        .single-news
+          p
+            padding-right 0
+            font-size 24px
+            line-height 34px
+    
+    section
+      .content-container
+        margin-bottom 20px
+      
+    .nav-arrow
+      height 74px
+      
+      img
+        height 100%
+        width auto
+        
+        &.arrow-img
+          height auto
+          width 38px
+          top 24px
+      
+      .nav-arrow-right-mobile
+        top initial
+        position relative
+  
+  .notice-container
+    .offset-container
+      padding-left 0
+      
+      .text-container
+        > span
+          margin-right 0
+          
+      /*.legal-container
+        margin-top 20px
+        right initial*/
+  
+  .gdpr-notice-container
+    .gdpr-notice
+      padding 50px 40px
+  
+      .close-gdpr
+        right 25px
+        top 17px
+        width 30px
+  
+        img
+          width 100%
+  
+  footer
+    .offset-container
+      padding-left 0
+  
+.back-to-top
+  position fixed
+  bottom 32px
+  right 48px
+  border-radius 50%
+  background rgba(255, 255, 255, 0.75)
+  opacity 0
+  transition:
+      background 0.15s linear,
+      opacity 0.15s linear
+  width 50px
+  height 50px
+  z-index 2000
+  cursor default
+  
+  &.is-visible
+    opacity 1
+    cursor pointer
+  
+  &:hover
+    background white
+    
+.news-appear
+  opacity 0
+
+.news-appear-active
+  transition-property: opacity;
+  transition-duration: 0.25s;
+  transition-delay: 0.25s;
+  
+.news-fade-enter-active
+.news-fade-leave-active
+  transition-property: opacity;
+  transition-duration: .25s;
+
+.news-fade-enter
+.news-fade-leave-active
+  opacity: 0

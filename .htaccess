@@ -1,0 +1,18 @@
+#AuthType Basic
+#AuthName "Password Protected Area"
+#AuthUserFile /home/gtcraisn/forumforfuturemuseum_com/.htpasswd
+#Require valid-user
+
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirect to https
+RewriteCond %{HTTPS} off
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule ^(.*)$ public/$1 [L]

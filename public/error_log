@@ -1,0 +1,243 @@
+[22-May-2020 16:16:06 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/agroprot/public_html/public/index.php on line 52
+[22-May-2020 16:16:32 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/agroprot/public_html/public/index.php on line 52
+[22-May-2020 16:16:36 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/agroprot/public_html/public/index.php on line 52
+[22-May-2020 16:16:41 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/agroprot/public_html/public/index.php on line 52
+[23-Jun-2020 12:24:49 Europe/Zagreb] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/agroprot/public_html/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 138
+[12-May-2026 11:41:50 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:41:50 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:43:47 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:43:58 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:47:17 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:50:46 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:50:46 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:50:51 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:50:53 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:50:55 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:51:01 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:51:02 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:51:31 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:51:32 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:54:09 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 11:55:17 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 12:00:19 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 13:17:21 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 13:25:21 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:30:48 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:31:17 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:35:24 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:35:45 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:38:12 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:38:56 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:43:06 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:43:07 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:46:29 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:48:25 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:50:40 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:50:42 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:53:10 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 14:53:19 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('view')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('view')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(772): Illuminate\Container\Co in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
+[12-May-2026 15:46:47 Europe/Zagreb] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php:803
+Stack trace:
+#0 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('translator')
+#1 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('translator')
+#2 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(787): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Foundation/Application.php in /home/agroprot/foozle-beshames.agroproteinka.hr/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 805
