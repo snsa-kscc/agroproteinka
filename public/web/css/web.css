@@ -1719,6 +1719,9 @@ footer ul {
   .slider-container.history-section .section-img-container {
     margin-bottom: 0 !important;
   }
+  .news-wrapper {
+    padding-top: 58px !important;
+  }
   /* .slider-container.news-slider {
     margin-top: 55px;
     padding-top: 58px !important;

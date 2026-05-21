@@ -112,7 +112,7 @@
 	>
 	</cookie-notice>
 
-	<gdpr-notice></gdpr-notice>
+	<!-- <gdpr-notice></gdpr-notice> -->
 
 	@if (app()->environment() == 'production')
 
