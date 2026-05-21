@@ -1316,6 +1316,14 @@ footer .footer-info.top-info {
 footer .footer-info.bottom-info {
   margin-bottom: 40px;
 }
+@media screen and (min-width: 992px) {
+  footer .footer-info.bottom-info {
+    align-items: center;
+  }
+  footer .footer-info.bottom-info .left-section {
+    align-items: center;
+  }
+}
 footer .left-info,
 footer .right-info {
   width: 295px;
@@ -1328,9 +1336,10 @@ footer .right-section {
     width: 200px;
   }
 }
-footer .social {
-  top: -3px;
-  margin-bottom: 7px;
+@media screen and (max-width: 991px) {
+  footer .social {
+    margin-bottom: 7px;
+  }
 }
 footer .social a {
   margin-right: 17px;
@@ -1347,7 +1356,6 @@ footer .social a:hover {
 }
 footer .footer-logo {
   width: 190px;
-  top: -3px;
 }
 footer h3 {
   color: #fff;

@@ -1087,6 +1087,12 @@ footer
       
     &.bottom-info
       margin-bottom 40px
+
+      @media gtlgMedia
+        align-items center
+
+        .left-section
+          align-items center
   
   .left-info
   .right-info
@@ -1099,9 +1105,10 @@ footer
       width 200px
       
   .social
-    top -3px
-    margin-bottom 7px
-    
+
+    @media ltlgMedia
+      margin-bottom 7px
+
     a
       margin-right 17px
       transition opacity 0.15s linear
@@ -1117,7 +1124,6 @@ footer
       
   .footer-logo
     width 190px
-    top -3px
   
   h3
     color white
