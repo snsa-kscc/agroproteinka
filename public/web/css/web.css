@@ -1721,6 +1721,7 @@ footer ul {
   }
   .news-wrapper {
     padding-top: 58px !important;
+    padding-bottom: 58px;
   }
   /* .slider-container.news-slider {
     margin-top: 55px;
