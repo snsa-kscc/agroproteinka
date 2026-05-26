@@ -95,7 +95,7 @@
 
 							@endif
 
-							<a href="http://ward.hr/index.html" class="footer-link" target="_blank">Design by Ward</a>
+							<a href="https://ward.hr" class="footer-link" target="_blank">Design by Ward</a>
 
 						</div>
 					</div>
