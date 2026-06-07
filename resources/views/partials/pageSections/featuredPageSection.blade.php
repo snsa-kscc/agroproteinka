@@ -21,8 +21,9 @@
 				<div class="content-container {{ $sectionHelper->contentContainerClass() }} d-flex justify-content-lg-end">
 					<div class="inner-content-container">
 						<div class="text-container {{ $sectionHelper->textContainerClass() }}">
-							<h2>{{ $featuredPage->trans('name') }}</h2>
-
+							@if ($featuredPage->show_featured_title)
+									<h2>{{ $featuredPage->trans('name') }}</h2>
+							@endif
 							{!! $featuredPage->trans('intro') !!}
 						</div>
 

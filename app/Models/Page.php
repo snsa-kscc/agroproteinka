@@ -13,7 +13,8 @@ class Page extends Model implements HasMetaData
 	use Translatable;
 
     protected $fillable = [
-    	'page_id', 'depth', 'position', 'model_key', 'is_active',
+		'page_id', 'depth', 'position', 'model_key', 'is_active',
+		'show_featured_title',
 		'intro_image', 'header_image', 'page_type', 'no_footer_margin',
 
 		'name_hr', 'slug_hr', 'title_hr', 'lead_hr', 'content_hr',

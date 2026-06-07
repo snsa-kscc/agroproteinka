@@ -167,6 +167,13 @@ return [
 			'fieldTab' => 'common'
 		],
 		[
+			'property' => 'show_featured_title',
+			'label' => 'Show featured title',
+			'type' => 'checkbox',
+			'default' => 1,
+			'fieldTab' => 'common'
+		],
+		[
 			'property' => 'intro',
 			'label' => 'Featured text',
 			'type' => 'editor',
