@@ -33,18 +33,17 @@
 						@foreach ($navPages as $navPage)
 
 							<page-link
-								{{--:has-subpages="{{ $navPage->orderedPages->count() ? 'true' : 'false' }}"--}}
-								:has-subpages="false"
+								:has-subpages="{{ $navPage->orderedPages->count() ? 'true' : 'false' }}"
 								:is-active="{{ $navPage->isActive($page) ? 'true' : 'false' }}"
 								url="{{ $navPage->url }}"
 								name="{{ $navPage->trans('name') }}"
 							>
 
-								{{--@if ($navPage->orderedPages->count())
+								@if ($navPage->orderedPages->count())
 
 									<ul>
 
-										@foreach ($navPage->pages as $subpage)
+										@foreach ($navPage->orderedPages as $subpage)
 
 											<li>
 												<a href="{{ $subpage->url }}">{{ $subpage->trans('name') }}</a>
@@ -54,7 +53,7 @@
 
 									</ul>
 
-								@endif--}}
+								@endif
 
 							</page-link>
 

@@ -483,8 +483,12 @@ header .nav-container .hidden-links-container ul {
   padding: 0;
   margin: 0;
 }
-header .nav-container .hidden-links-container ul a {
+header .nav-container .hidden-links-container ul a,
+header .nav-container .hidden-links-container ul span {
   color: #fff;
+}
+header .nav-container .hidden-links-container ul span {
+  display: inline-block;
 }
 header .nav-container .hidden-links-container ul a:hover {
   text-decoration: none;
@@ -512,12 +516,12 @@ header
   display: block;
 }
 header .nav-container .hidden-links-container ul.top-level-list > li > ul {
-  display: none;
-  padding: 10px 0;
+  display: block;
+  padding: 10px 0 10px 32px;
 }
 header .nav-container .hidden-links-container ul.top-level-list > li > ul > li {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 28px;
+  line-height: 36px;
 }
 header
   .nav-container
@@ -1489,7 +1493,7 @@ footer ul {
   }
   header .nav-container .hidden-links-container ul.top-level-list > li > ul {
     display: block;
-    padding-top: 0;
+    padding: 0;
   }
   header .logo {
     width: auto;

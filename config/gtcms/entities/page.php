@@ -24,7 +24,7 @@ return [
 		],
 		'depth' => [
 			'property' => 'depth',
-			'max' => 1
+			'max' => 2
 		],
 	],
 
