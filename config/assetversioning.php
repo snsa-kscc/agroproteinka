@@ -3,7 +3,7 @@
 return [
 
 	'front' => [
-		'css' => '1.29',
+		'css' => '1.30',
 		'js' => '1.16',
 		'cssVendors' => '1.2',
 		'jsVendors' => '1.2',

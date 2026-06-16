@@ -822,6 +822,14 @@ section .content-container .inner-text-container {
   overflow: hidden;
   transition: height 0.2s ease-out;
 }
+section .content-container .inner-text-container ul {
+  padding: revert;
+  list-style: initial;
+  font-size: 18px;
+}
+section .content-container .inner-text-container ul span {
+  font-size: initial;
+}
 section .content-container .inner-text-container h2 {
   font-size: 36px;
 }
