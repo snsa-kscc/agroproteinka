@@ -4,7 +4,7 @@ return [
 
 	'front' => [
 		'css' => '1.30',
-		'js' => '1.16',
+		'js' => '1.17',
 		'cssVendors' => '1.2',
 		'jsVendors' => '1.2',
 		'favicon' => '1.0'
